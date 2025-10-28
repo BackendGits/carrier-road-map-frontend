@@ -3,7 +3,7 @@ import { useState } from 'react';
 const Navbar = () => {
   const [active, setActive] = useState('Home');
 
-  const navItems = ['Home', 'About', 'Contact', 'Goal Planner', 'AI Mock Interview'];
+  const navItems = ['Home','Contact'];
 
   return (
     <nav style={navStyle}>
